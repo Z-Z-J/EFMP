@@ -24,7 +24,7 @@ pip install -r requirements.txt
    * Download our data from [Google Drive](https://drive.google.com/drive/folders/1Z6-fLuANi2Y67w-VZrx-oG_K9IrSINtK?usp=sharing) 
    * Download our pretrained model from [Google Drive](https://drive.google.com/drive/folders/10YgOngKAVqAjWuplS8fD0ZwowhVz5Lgr?usp=drive_link)
    
-2. You need to add the `data` and  `checkpoint` as below.
+2. You need to add the `dataset` and  `checkpoint` as below.
 ```
 |-- dataset
 `-- |-- h36m_sub1.npz
