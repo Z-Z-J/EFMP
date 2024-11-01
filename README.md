@@ -1,6 +1,6 @@
-# EFMP: Extrinsic Parameters-free Multi-view 3D human pose estimation
+# EFMP: Extrinsic Parameters-free Multi-view 3D Human Pose Estimation
 
-This repository is the official implementation of [EFMP: Extrinsic Parameters-free Multi-view 3D human pose estimation]. 
+This repository is the official implementation of [EFMP: Extrinsic Parameters-free Multi-view 3D Human Pose Estimation]. 
 
 ## Key idea: Data pre-processing + SVJFormer + BPMA
 
