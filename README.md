@@ -2,10 +2,17 @@
 
 This repository is the official implementation of [EFMP: Extrinsic Parameters-free Multi-view 3D human pose estimation]. 
 
-## Key Idea: Data pre-processing + SVJFormer + BPMA
+## Key idea: Data pre-processing + SVJFormer + BPMA
 
 ## Requirements
 
+The code is conducted under the following environment:
+
+* Ubuntu 18.04
+* Python 3.7.11
+* PyTorch 1.8.1
+* CUDA 10.1
+  
 To install requirements:
 
 ```setup
@@ -42,7 +49,7 @@ pip install -r requirements.txt
 To train our model, run:
 
 ```train
-python run_h36m_cpn_wo_parameters.py --train --frame 1 - 
+python run_h36m_cpn_wo_parameters.py --train --frame 1 
 python run_h36m_cpn_w_intrinsic_parameters.py --train --frame 1  
 python run_h36m_gt_w_intrinsic_parameters.py --train --frame 1  
 ```
@@ -65,4 +72,14 @@ Our model achieves the following performance on Human3.6M:
 | Ours (CPN)   |camera-parameters-free|     25.8mm |      
 | Ours (CPN)  |camera-intrinsic-parameters-free|     25.0mm  |  
 | Ours (GT)  |camera-intrinsic-parameters-free|     5.6mm |  
+
+## Acknowledgement
+
+Thanks for the baselines, we construct the code based on them:
+
+* VideoPose3D
+* STCFormer
+
+
+
 
