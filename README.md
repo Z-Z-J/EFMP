@@ -2,7 +2,7 @@
 
 This repository is the official implementation of [EFMP: Extrinsic Parameters-free Multi-view 3D Human Pose Estimation]. 
 
-## Key idea: Data pre-processing + SVJFormer + BPMA
+## Key idea: LGPE + SVJFormer + BPMA
 
 ## Requirements
 
